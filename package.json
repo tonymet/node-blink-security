@@ -1,6 +1,6 @@
 {
   "name": "TEST-DEPLOY-DO-NOT-INSTALL-node-blink-security",
-  "version": "1.2.2",
+  "version": "0.0.1",
   "description": "A NodeJS module for the Blink Security Camera System",
   "main": "index.js",
   "scripts": {
