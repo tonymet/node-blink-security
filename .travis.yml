@@ -5,9 +5,9 @@ node_js:
 - 6
 env:
   global:
-  - BLINK_AUTH_TOKEN:
-  - BLINK_NETWORK_ID:
-  - BLINK_REGION_ID:
+  - BLINK_AUTH_TOKEN: TEST_TOKEN
+  - BLINK_NETWORK_ID: 100000
+  - BLINK_REGION_ID: rest.prod
 cache:
   yarn: true
   directories:
