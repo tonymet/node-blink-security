@@ -17,12 +17,7 @@ script:
 jobs:
   include:
     - stage: npm release
-      node_js: stable
-      env:
-        global:
-        - BLINK_AUTH_TOKEN: TEST_TOKEN
-        - BLINK_NETWORK_ID: 100000
-        - BLINK_REGION_ID: rest.prod
+      node_js: 8
       deploy:
         email: madshall.md@gmail.com
         provider: npm
